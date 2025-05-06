@@ -11,10 +11,23 @@ export class RickMortyService {
   private http = inject(HttpClient);
 
   rickmortys: RickMortyI[] = [
+    {
+      "characters": "https://rickandmortyapi.com/api/character",
+      "locations": "https://rickandmortyapi.com/api/location",
+      "episodes": "https://rickandmortyapi.com/api/episode"
+    }
   ];
 
-  getRickMortyList(): RickMortyI[] {
-    return this.rickmortys;
+  getRickMortyCharacterList(): RickMortyI[] {
+    return this.rickmortys.characters;
+  }
+
+  getRickMortyLocationList() : RickMortyI[] {
+    return this.rickmortys.locations;
+  }
+
+  getRickMortyEpisodeList() : RickMortyI[] {
+    return this.rickmortys.episodes;
   }
 
   getRickMortyByID(rickMortyId: number): RickMortyI|undefined{

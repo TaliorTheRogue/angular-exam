@@ -22,6 +22,6 @@ export const routes: Routes = [
   },
   {
     path: "**",
-    redirectTo: "erreur/404"
+    redirectTo: "error/404"
   }
 ];

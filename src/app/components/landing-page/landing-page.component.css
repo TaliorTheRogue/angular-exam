@@ -21,7 +21,7 @@
 }
 
 .rick-morty-btn{
-  background-image: url("../../../../public/rick-morty.jpg");
+  background-image: url("../../../assets/imgs/rick-morty.jpg");
   background-position: center;
   background-size: 90% auto;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .nasa-btn{
-  background-image: url("../../../../public/nasa.jpg");
+  background-image: url("../../../assets/imgs/nasa.jpg");
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;

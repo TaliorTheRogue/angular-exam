@@ -4,7 +4,7 @@
 
 .main-content{
   min-height:75dvh;
-  background-image: url("../../public/Rogue.png");
+  background-image: url("../assets/imgs/Rogue.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(255, 255, 255, 0.9);
